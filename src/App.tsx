@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Timer from "./components/Timer"
-import {Header} from "./components/Header"
+import Timer from './components/timer'
 
 function App() {
   return (
-    <div className="App">
-     <Header/>
-     <Timer/>
+    <div>
+      <h1 id = "heading">Timer Application</h1>
+      <Timer data-testid = "timer"></Timer>
     </div>
   );
 }

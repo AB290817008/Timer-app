@@ -5,20 +5,19 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
-    margin-top: 100px;
  
 }
 
 #displayContainer{
-    
-   border-style: outset;
+
+   border-style: dotted;
    border-width: 5px;
    padding: 20px;
     font-size: 100px;
     min-width: 300px;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 2px 5px 20px rgb(34, 26, 26);
-    color: #c0392b;
+    background-color: rgb(185, 213, 236);
+    box-shadow: 2px 5px 20px rgb(51, 40, 218);
+    color: rgb(18, 107, 240);
 }
 
 #buttonsContainer{
@@ -36,14 +35,14 @@
     font-size: 30px;
     margin: 10px;
     width: 100px;
-    color:#c0392b;
-    background-color:rgb(0, 0, 0);
+    color:rgb(240, 236, 236);
+    background-color:rgb(51, 40, 218);
    
  }
  .buttons:hover{
 
    
     
-    background-color:rgb(247, 247, 255);
+    background-color:rgb(15, 6, 141);
    
  }
