@@ -1,10 +1,11 @@
-#heading {
+.timerHeading {
 
   text-align: center;
   font-size: 50px;
-  text-shadow: 1px 2px 4px rgb(26, 38, 129);
+  text-shadow: 1px 2px 4px rgb(253, 253, 253);
   margin-bottom: 50px;
   text-decoration: underline;
+  color: rgb(249, 255, 255);
 }
 
 
