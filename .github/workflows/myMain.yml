@@ -31,12 +31,14 @@ jobs:
     # Yarn command
         cmd: install
         
+    - name: testing
+      run: npm test
+        
     - name: creating build
-      run: npm run build
+      run: yarn build
      
     - name: installing surge
       run: npm install -g surge
       
     - name: deploying on surge
-      run: surge ./build black-fang.surge.sh --token ${{ secrets.SURGE_TOKEN }}
-    
+      run: surge ./build black-fang.surge.sh --token ${{ secrets.MY_TOKEN }}
